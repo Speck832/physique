@@ -1,0 +1,80 @@
+body {
+    background-color: #0c0d17;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    color: #6fe1f5;
+    border-style: solid;
+    background-color: #0c152b;
+    border-radius: 10px;
+}
+#logo {
+    height: 140px;
+    width: 140px;
+}
+#divtitre {
+    align-self: center;
+    justify-self: center;
+}
+#divlogo {
+    align-self: center;
+    justify-self: left;
+    margin-right: 30px;
+}
+nav {
+    color: #6fe1f5;
+    border-style: solid;
+    width: fit-content;
+    background-color: #0c152b;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-self: center;
+}
+.liennav {
+    color: #6fe1f5;
+    text-decoration: none;
+    margin: 7px;
+    &:hover {
+        font-weight: bold;
+    }
+}
+#presentation {
+    color: #6fe1f5;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #0c152b;
+    padding-right: 20px;
+    padding-left: 20px;
+    align-self: center;
+    justify-self: center;
+    max-width: 1200px;
+}
+#introduction {
+    color: #6fe1f5;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #0c152b;
+    padding-right: 20px;
+    padding-left: 20px;
+    align-self: center;
+    justify-self: center;
+    max-width: 1200px;
+}
